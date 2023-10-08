@@ -1,0 +1,24 @@
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 7
+   Tutorial Case
+   Survey Forms Style Sheet
+   Author: Laura Bauer
+   Date:   April 1, 2023
+
+   Filename: rw_forms.css
+
+*/
+
+/*sets margins for filter boxes*/
+
+div.formRow { 
+ display: flex; 
+ flex-flow: row wrap; 
+ margin: 7px 0px; 
+}
+
+div.formRow > * { 		
+ flex: 1 1 150px; 
+}
+
